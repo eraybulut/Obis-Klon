@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/programFragment">
+
+    <fragment
+        android:id="@+id/programFragment"
+        android:name="com.eray.iguobisklon.ProgramFragment"
+        android:label="fragment_program"
+        tools:layout="@layout/fragment_program" >
+        <action
+            android:id="@+id/gotoSinav"
+            app:destination="@id/sinavFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sinavFragment"
+        android:name="com.eray.iguobisklon.SinavFragment"
+        android:label="fragment_sinav"
+        tools:layout="@layout/fragment_sinav" >
+        <action
+            android:id="@+id/action_sinavFragment_to_devamsilikFragment"
+            app:destination="@id/devamsilikFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/devamsilikFragment"
+        android:name="com.eray.iguobisklon.DevamsilikFragment"
+        android:label="fragment_devamsilik"
+        tools:layout="@layout/fragment_devamsilik" >
+        <action
+            android:id="@+id/action_devamsilikFragment_to_profilFragment"
+            app:destination="@id/profilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profilFragment"
+        android:name="com.eray.iguobisklon.ProfilFragment"
+        android:label="fragment_profil"
+        tools:layout="@layout/fragment_profil" />
+</navigation>

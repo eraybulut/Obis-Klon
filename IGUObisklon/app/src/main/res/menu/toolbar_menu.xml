@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/toolbar_yenile"
+        android:icon="@drawable/ic_baseline_refresh_24"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/toollBar_bilgi"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="Bilgi"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/toolbar_yardim"
+        android:icon="@drawable/help"
+        android:title="Yardım"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/toolbar_cıkıs"
+        android:title="Cıkıs Yap" />
+</menu>
