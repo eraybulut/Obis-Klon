@@ -1,6 +1,9 @@
 # Obis-Klon
 Gelişim üniversitenin obis uygulamasının klon halidir.
 
+Kullanıcı Adı :eray
+Sifre : 123
+
 ### Giriş Ekranı
 
 ![Giriş Resmi](https://github.com/eraybulut/Obis-Klon/blob/main/IGUObisklon/images/giris.png)
