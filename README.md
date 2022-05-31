@@ -1,8 +1,9 @@
 # Obis-Klon
 Gelişim üniversitenin obis uygulamasının klon halidir.
 
-Kullanıcı Adı :eray
-Sifre : 123
+**Kullanıcı Adı :** eray
+
+**Sifre :** 123
 
 ### Giriş Ekranı
 
